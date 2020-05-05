@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainForm));
             this.pnlTop = new System.Windows.Forms.Panel();
             this.btnTrogiup = new System.Windows.Forms.Button();
             this.btnCaidat = new System.Windows.Forms.Button();
@@ -56,11 +57,14 @@
             this.tSStime = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlChildForm = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlTop.SuspendLayout();
             this.pnlLeftBot.SuspendLayout();
             this.panelBenhnhanSubmenu.SuspendLayout();
             this.panelNhanvienSubmenu.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTop
@@ -146,7 +150,7 @@
             this.btnThoat.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnThoat.Image = global::QLBV.Properties.Resources.door_5_16;
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(0, 463);
+            this.btnThoat.Location = new System.Drawing.Point(0, 477);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnThoat.Size = new System.Drawing.Size(169, 45);
@@ -164,10 +168,11 @@
             this.btnKhamchuabenh.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnKhamchuabenh.FlatAppearance.BorderSize = 0;
             this.btnKhamchuabenh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKhamchuabenh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhamchuabenh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnKhamchuabenh.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnKhamchuabenh.Image = ((System.Drawing.Image)(resources.GetObject("btnKhamchuabenh.Image")));
             this.btnKhamchuabenh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhamchuabenh.Location = new System.Drawing.Point(0, 418);
+            this.btnKhamchuabenh.Location = new System.Drawing.Point(0, 432);
             this.btnKhamchuabenh.Name = "btnKhamchuabenh";
             this.btnKhamchuabenh.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnKhamchuabenh.Size = new System.Drawing.Size(169, 45);
@@ -184,9 +189,9 @@
             this.panelBenhnhanSubmenu.Controls.Add(this.btnKoBHYT);
             this.panelBenhnhanSubmenu.Controls.Add(this.btnCoBHYT);
             this.panelBenhnhanSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBenhnhanSubmenu.Location = new System.Drawing.Point(0, 324);
+            this.panelBenhnhanSubmenu.Location = new System.Drawing.Point(0, 342);
             this.panelBenhnhanSubmenu.Name = "panelBenhnhanSubmenu";
-            this.panelBenhnhanSubmenu.Size = new System.Drawing.Size(169, 94);
+            this.panelBenhnhanSubmenu.Size = new System.Drawing.Size(169, 90);
             this.panelBenhnhanSubmenu.TabIndex = 15;
             // 
             // btnKoBHYT
@@ -240,7 +245,7 @@
             this.btnBenhnhan.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnBenhnhan.Image = global::QLBV.Properties.Resources.collaborator_16;
             this.btnBenhnhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBenhnhan.Location = new System.Drawing.Point(0, 279);
+            this.btnBenhnhan.Location = new System.Drawing.Point(0, 297);
             this.btnBenhnhan.Name = "btnBenhnhan";
             this.btnBenhnhan.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnBenhnhan.Size = new System.Drawing.Size(169, 45);
@@ -257,9 +262,9 @@
             this.panelNhanvienSubmenu.Controls.Add(this.btnKhac);
             this.panelNhanvienSubmenu.Controls.Add(this.btnBacsi);
             this.panelNhanvienSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelNhanvienSubmenu.Location = new System.Drawing.Point(0, 187);
+            this.panelNhanvienSubmenu.Location = new System.Drawing.Point(0, 207);
             this.panelNhanvienSubmenu.Name = "panelNhanvienSubmenu";
-            this.panelNhanvienSubmenu.Size = new System.Drawing.Size(169, 92);
+            this.panelNhanvienSubmenu.Size = new System.Drawing.Size(169, 90);
             this.panelNhanvienSubmenu.TabIndex = 13;
             // 
             // btnKhac
@@ -313,7 +318,7 @@
             this.btnNhanvien.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnNhanvien.Image = global::QLBV.Properties.Resources.group_16;
             this.btnNhanvien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhanvien.Location = new System.Drawing.Point(0, 142);
+            this.btnNhanvien.Location = new System.Drawing.Point(0, 162);
             this.btnNhanvien.Name = "btnNhanvien";
             this.btnNhanvien.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnNhanvien.Size = new System.Drawing.Size(169, 45);
@@ -333,7 +338,7 @@
             this.btnHethong.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnHethong.Image = global::QLBV.Properties.Resources.desktop_2_16;
             this.btnHethong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHethong.Location = new System.Drawing.Point(0, 97);
+            this.btnHethong.Location = new System.Drawing.Point(0, 117);
             this.btnHethong.Name = "btnHethong";
             this.btnHethong.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnHethong.Size = new System.Drawing.Size(169, 45);
@@ -347,10 +352,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(169, 97);
+            this.panel2.Size = new System.Drawing.Size(169, 117);
             this.panel2.TabIndex = 11;
             // 
             // statusStrip1
@@ -430,6 +436,18 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(54, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(67, 65);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -450,8 +468,10 @@
             this.pnlLeftBot.ResumeLayout(false);
             this.panelBenhnhanSubmenu.ResumeLayout(false);
             this.panelNhanvienSubmenu.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -485,6 +505,7 @@
         private System.Windows.Forms.ToolStripStatusLabel tSStime;
         private System.Windows.Forms.Panel pnlChildForm;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
