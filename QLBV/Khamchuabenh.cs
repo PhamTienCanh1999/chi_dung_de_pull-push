@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace QLBV
 {
-    public partial class frmkoBHYT : Form
+    public partial class frmChildFormKCB : Form
     {
-        public frmkoBHYT()
+        public frmChildFormKCB()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

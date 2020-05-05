@@ -104,6 +104,7 @@ namespace QLBV
         private void btnKhamchuabenh_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new frmChildFormKCB());
         }
 
         private void btnNhanvien_Click(object sender, EventArgs e)

@@ -65,7 +65,7 @@
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pnlTop.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.pnlTop.Controls.Add(this.btnTrogiup);
             this.pnlTop.Controls.Add(this.btnCaidat);
             this.pnlTop.Controls.Add(this.lblHead);
@@ -120,7 +120,7 @@
             // pnlLeftBot
             // 
             this.pnlLeftBot.AutoScroll = true;
-            this.pnlLeftBot.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pnlLeftBot.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.pnlLeftBot.Controls.Add(this.btnThoat);
             this.pnlLeftBot.Controls.Add(this.btnKhamchuabenh);
             this.pnlLeftBot.Controls.Add(this.panelBenhnhanSubmenu);
@@ -137,13 +137,14 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnThoat.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnThoat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThoat.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnThoat.FlatAppearance.BorderSize = 0;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnThoat.Image = global::QLBV.Properties.Resources.door_5_16;
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThoat.Location = new System.Drawing.Point(0, 463);
             this.btnThoat.Name = "btnThoat";
@@ -158,7 +159,7 @@
             // 
             // btnKhamchuabenh
             // 
-            this.btnKhamchuabenh.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnKhamchuabenh.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnKhamchuabenh.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnKhamchuabenh.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnKhamchuabenh.FlatAppearance.BorderSize = 0;
@@ -196,6 +197,7 @@
             this.btnKoBHYT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKoBHYT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKoBHYT.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnKoBHYT.Image = global::QLBV.Properties.Resources.dnd_16;
             this.btnKoBHYT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKoBHYT.Location = new System.Drawing.Point(0, 45);
             this.btnKoBHYT.Name = "btnKoBHYT";
@@ -216,6 +218,7 @@
             this.btnCoBHYT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCoBHYT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCoBHYT.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnCoBHYT.Image = global::QLBV.Properties.Resources.credit_card_7_16;
             this.btnCoBHYT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCoBHYT.Location = new System.Drawing.Point(0, 0);
             this.btnCoBHYT.Name = "btnCoBHYT";
@@ -235,6 +238,7 @@
             this.btnBenhnhan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBenhnhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBenhnhan.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnBenhnhan.Image = global::QLBV.Properties.Resources.collaborator_16;
             this.btnBenhnhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBenhnhan.Location = new System.Drawing.Point(0, 279);
             this.btnBenhnhan.Name = "btnBenhnhan";
@@ -266,6 +270,7 @@
             this.btnKhac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKhac.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhac.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnKhac.Image = global::QLBV.Properties.Resources.nurse_16__1_;
             this.btnKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhac.Location = new System.Drawing.Point(0, 45);
             this.btnKhac.Name = "btnKhac";
@@ -286,6 +291,7 @@
             this.btnBacsi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBacsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBacsi.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnBacsi.Image = global::QLBV.Properties.Resources.doctor_16__1_;
             this.btnBacsi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBacsi.Location = new System.Drawing.Point(0, 0);
             this.btnBacsi.Name = "btnBacsi";
@@ -305,6 +311,7 @@
             this.btnNhanvien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhanvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanvien.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnNhanvien.Image = global::QLBV.Properties.Resources.group_16;
             this.btnNhanvien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhanvien.Location = new System.Drawing.Point(0, 142);
             this.btnNhanvien.Name = "btnNhanvien";
@@ -324,6 +331,7 @@
             this.btnHethong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHethong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHethong.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnHethong.Image = global::QLBV.Properties.Resources.desktop_2_16;
             this.btnHethong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHethong.Location = new System.Drawing.Point(0, 97);
             this.btnHethong.Name = "btnHethong";
@@ -338,7 +346,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -348,7 +356,7 @@
             // statusStrip1
             // 
             this.statusStrip1.AutoSize = false;
-            this.statusStrip1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.statusStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.tSSxy,
